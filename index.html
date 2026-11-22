@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="vi-VN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoàng Vũ - Portfolio cá nhân</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoàng Vũ - Portfolio cá nhân</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,10 +16,88 @@
       <nav>
         <ul id="button">
           <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
           <li><a href="#projects">Dự án</a></li>
           <li><a href="#contact">Liên hệ</a></li>
         </ul>
       </nav>
+    </div>
   </header>
+
+  <main>
+    <section id="hero">
+      <div class="container hero-box">
+        <img class="avatar" src="assets/castorice.gif" alt="Ảnh đại diện">
+        <h2>Xin chào, tôi là Hoàng Vũ</h2>
+        <p class="role">Sinh viên Công nghệ thông tin</p>
+        <a class="btn" href="#contact">Liên hệ với tôi</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="title">Giới thiệu</h2>
+        <p>
+          Tôi là sinh viên ngành Công nghệ thông tin, yêu thích thiết kế web và lập trình.
+          Tôi luôn muốn học hỏi công nghệ mới và biến ý tưởng thành những sản phẩm hữu ích.
+        </p>
+        <ul class="info">
+          <li><strong>Họ tên:</strong> Vũ Triệu Hoàng</li>
+          <li><strong>Trường:</strong> Đại học Đại Nam</li>
+          <li><strong>Ngành học:</strong> Công nghệ thông tin</li>
+          <li><strong>Sở thích:</strong> Lập trình, chơi game, nghe nhạc</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2 class="title">Kỹ năng</h2>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>Git &amp; GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2 class="title">Dự án</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Website Portfolio</h3>
+            <p>Trang giới thiệu cá nhân xây dựng bằng HTML và CSS thuần.</p>
+            <a href="#">Xem chi tiết →</a>
+          </article>
+          <article class="card">
+            <h3>Ứng dụng To-do List</h3>
+            <p>Quản lý công việc hằng ngày với giao diện đơn giản, dễ dùng.</p>
+            <a href="#">Xem chi tiết →</a>
+          </article>
+          <article class="card">
+            <h3>Landing Page</h3>
+            <p>Trang giới thiệu sản phẩm responsive, hiển thị tốt trên điện thoại.</p>
+            <a href="#">Xem chi tiết →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2 class="title">Liên hệ</h2>
+        <ul class="info">
+          <li><strong>Email:</strong> <a href="mailto:hoangvu05.208@gmail.com">hoangvu05.208@gmail.com</a></li>
+          <li><strong>Điện thoại:</strong> 0335 049 577</li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/lineagefox" target="_blank">github.com/lineagefox</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Hoàng Vũ</p>
+  </footer>
 </body>
 </html>
