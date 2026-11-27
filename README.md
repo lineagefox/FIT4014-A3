@@ -9,3 +9,6 @@
   2: Bấm Dự án trên menu.
 ## Hạn chế: 
    Chưa kiểm tra trên iPhone; biểu mẫu liên hệ chưa gửi được email.
+
+
+## thử 
